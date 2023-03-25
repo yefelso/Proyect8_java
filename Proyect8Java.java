@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package proyect8.java;
-
+import java.util.Scanner;
 /**
  *
  * @author alumno
@@ -15,7 +15,13 @@ public class Proyect8Java {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        for (int i = 1; i <= 999; i++) {
+        int num1,num2;
+        Scanner n = new Scanner (System.in);
+        System.out.println("ingrese el primer numero");
+        num1 = n.nextInt();
+        System.out.println("ingrese el segundo numero numero");
+        num2 = n.nextInt();
+        for (int i = num1; i <=num2; i++) {
         if (i % 2 != 0) {
                 System.out.println(i);
         }
